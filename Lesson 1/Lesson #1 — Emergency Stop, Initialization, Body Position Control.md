@@ -12,13 +12,13 @@ First of all, we should lease control over robot. There are two ways to do it - 
 
 So, to make some movement, you should follow the scheme:
 
-![Robot Execution States](Lesson1_materials/e_stop_scheme.png)
+![Robot Execution States](lesson_materials/e_stop_scheme.png)
 
 Robot Execution States
 
 In this lesson you will learn how to control robot rotation by changing its *yaw*, *roll* and *pitch*. In the picture bellow the body frame coordinate system is shown:
 
-![Spot coordinates](Lesson1_materials/spot_coords.png)
+![Spot coordinates](lesson_materials/spot_coords.png)
 
 Spot coordinates
 
@@ -35,7 +35,7 @@ For this lesson, we'll be using Gitpod, a cloud-based IDE that allows you to pra
 2. Got to our [Spot education environment](https://gitpod.io/#github.com/merklebot/spot-edu-environment) and open it in our browser. You will see the window with typical IDE functions. 
 3. Click on Menu icon, then go to Terminal and create a new terminal.
     
-    ![Untitled](Lesson1_materials/gitpod_terminal.png)
+    ![Untitled](lesson_materials/gitpod_terminal.png)
     
 4. Copy-paste this command:
 
@@ -211,14 +211,14 @@ robot.power_off(cut_immediately=False)
 > If we need to move head of Spot to some point in camera, we should some large calculations with many non-linear parameters, which is not a simple task at all. But we could say, that locally, yaw and pitch angles could be approximately used as a cartesian coordinates with some coefficient on a picture.
 > 
 
-![Untitled](Lesson1_materials/cartesian.jpeg)
+![Untitled](lesson_materials/cartesian.jpeg)
 
 Now you can try to run the script and see the result. Don’t forget to save your code with Ctrl+S:
 
 ```bash
 sudo ./run_code.sh
 ```
-
+### Video of Spot could be found here:
 [https://codepen.io/smehnov/pen/BaVNrPM](https://codepen.io/smehnov/pen/BaVNrPM)
 
 ## Challenge
