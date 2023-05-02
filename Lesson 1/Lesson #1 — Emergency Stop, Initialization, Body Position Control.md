@@ -55,20 +55,14 @@ ping6 200:42f6:d055:e74e:ce4a:35aa:953a:70f7
 You should see something like this:
 
 ```bash
-gitpod /workspace/spot-edu-environment (main) $ ping6 200:42f6:d055:e74e:ce4a:35aa:953a:70f7
-PING 200:42f6:d055:e74e:ce4a:35aa:953a:70f7(200:42f6:d055:e74e:ce4a:35aa:953a:70f7) 56 data bytes
-64 bytes from 200:42f6:d055:e74e:ce4a:35aa:953a:70f7: icmp_seq=1 ttl=64 time=846 ms
-64 bytes from 200:42f6:d055:e74e:ce4a:35aa:953a:70f7: icmp_seq=2 ttl=64 time=172 ms
-64 bytes from 200:42f6:d055:e74e:ce4a:35aa:953a:70f7: icmp_seq=3 ttl=64 time=172 ms
-64 bytes from 200:42f6:d055:e74e:ce4a:35aa:953a:70f7: icmp_seq=4 ttl=64 time=197 ms
-64 bytes from 200:42f6:d055:e74e:ce4a:35aa:953a:70f7: icmp_seq=5 ttl=64 time=219 ms
-64 bytes from 200:42f6:d055:e74e:ce4a:35aa:953a:70f7: icmp_seq=6 ttl=64 time=242 ms
-64 bytes from 200:42f6:d055:e74e:ce4a:35aa:953a:70f7: icmp_seq=7 ttl=64 time=368 ms
-64 bytes from 200:42f6:d055:e74e:ce4a:35aa:953a:70f7: icmp_seq=8 ttl=64 time=172 ms
-64 bytes from 200:42f6:d055:e74e:ce4a:35aa:953a:70f7: icmp_seq=9 ttl=64 time=210 ms
-64 bytes from 200:42f6:d055:e74e:ce4a:35aa:953a:70f7: icmp_seq=10 ttl=64 time=235 ms
-64 bytes from 200:42f6:d055:e74e:ce4a:35aa:953a:70f7: icmp_seq=11 ttl=64 time=358 ms
-64 bytes from 200:42f6:d055:e74e:ce4a:35aa:953a:70f7: icmp_seq=12 ttl=64 time=281 ms
+gitpod /workspace/spot-edu-environment (main) $ ping6 202:9292:712f:a3ef:4a7e:b2b2:b45b:7e09
+PING 202:9292:712f:a3ef:4a7e:b2b2:b45b:7e09(202:9292:712f:a3ef:4a7e:b2b2:b45b:7e09) 56 data bytes
+64 bytes from 202:9292:712f:a3ef:4a7e:b2b2:b45b:7e09: icmp_seq=1 ttl=64 time=846 ms
+64 bytes from 202:9292:712f:a3ef:4a7e:b2b2:b45b:7e09: icmp_seq=2 ttl=64 time=172 ms
+64 bytes from 202:9292:712f:a3ef:4a7e:b2b2:b45b:7e09: icmp_seq=3 ttl=64 time=172 ms
+64 bytes from 202:9292:712f:a3ef:4a7e:b2b2:b45b:7e09: icmp_seq=4 ttl=64 time=197 ms
+64 bytes from 202:9292:712f:a3ef:4a7e:b2b2:b45b:7e09: icmp_seq=5 ttl=64 time=219 ms
+64 bytes from 202:9292:712f:a3ef:4a7e:b2b2:b45b:7e09: icmp_seq=6 ttl=64 time=242 ms
 ```
 
 1. Before scheduled time we will send you private key to establish SSH connection.
@@ -89,10 +83,7 @@ sudo ./run_code.sh
 
 Use the Spot scheduling website to pick the timeslot for your practice session:
 
-[https://dapp.spot-sdk.education/#/checkout](https://dapp.spot-sdk.education/#/checkout)
-
-Message arseniy@merklebot.com to request scheduling tokens. 
-
+[meetings.hubspot.com/strelka](https://meetings.hubspot.com/strelka)
 ## Practice
 
 Now we will make a simple script for Spot for drawing on screen using its head movements. 
@@ -241,3 +232,6 @@ Now, you know how to:
  And even drew a letter. Congratulations!
 
 We collected a [rosbag](http://wiki.ros.org/rosbag) with Spot’s joint data, so you could visualize them (for example with [foxglove](https://www.notion.so/Lesson-1-Emergency-Stop-Initialization-Body-Position-Control-4ccf6316330d4680ab1bb571b2b788d5)). The certificate will be sent to your email soon.
+
+
+## [Schedule your first lesson](https://meetings.hubspot.com/strelka)
